@@ -1,0 +1,177 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 700 40px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type1: 500 32px/1.2 "Inter", Helvetica, Arial, serif;
+$font_type2: 500 20px/1.2 "Inter", Helvetica, Arial, serif;
+
+.block {
+  @include flex-column;
+  background-color: rgb(255, 255, 255);
+}
+.block_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1024px;
+  flex-shrink: 0;
+}
+.content_box {
+  display: flex;
+  background-color: rgb(35, 39, 79);
+}
+.content_box_layout {
+  position: relative;
+  height: min-content;
+}
+.content_box_item {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 388px;
+}
+.image {
+  background: var(--src) center center / contain no-repeat;
+}
+.image_layout {
+  position: relative;
+  height: 66px;
+  margin: 15px 0px 13px;
+}
+.content_box_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 281px;
+}
+.hero_title {
+  @include v-center-content;
+  justify-content: center;
+  font: $font_type0;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.hero_title_layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: min-content;
+  margin: 23px 0px;
+}
+.content_box_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 588px;
+}
+.content_box_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 81px;
+}
+.icon {
+  background: var(--src) center center / contain no-repeat;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.24705882352941178));
+}
+.icon_layout {
+  position: relative;
+  height: 66px;
+  width: 66px;
+  min-width: 66px;
+  margin: 14px 15px 14px 0px;
+}
+.cover_block2 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.cover_block2_layout {
+  position: relative;
+  height: min-content;
+  width: 90.28%;
+  margin: 0px auto;
+}
+.image1 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image1_layout {
+  position: relative;
+  height: 301px;
+  width: 27.77%;
+  margin: 60px auto 0px;
+}
+.subtitle {
+  @include v-center-content;
+  justify-content: center;
+  font: $font_type2;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.subtitle_layout {
+  position: relative;
+  height: min-content;
+  width: 7.92%;
+  margin: 7.5px 60.27% 0px 31.81%;
+}
+.cover_block1 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.cover_block1_layout {
+  position: relative;
+  height: min-content;
+  width: 35.92%;
+  margin: 7.5px auto 0px;
+}
+.subtitle1 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: $font_type2;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+}
+.subtitle1_box {
+  @include v-center-content;
+  justify-content: center;
+}
+.subtitle1_box_layout {
+  position: relative;
+  height: min-content;
+  width: 65.95%;
+  margin: 15.5px auto 0px;
+}
+.subtitle_layout1 {
+  position: relative;
+  height: min-content;
+  width: 28.91%;
+  margin: 27.5px 71.09% 0px 0%;
+}
+.subtitle_layout2 {
+  position: relative;
+  height: min-content;
+  width: 41.33%;
+  margin: 17px auto 27px;
+}
+.cover_block {
+  @include flex-column;
+  background-color: rgb(243, 152, 108);
+}
+.cover_block_layout {
+  position: relative;
+  height: min-content;
+  width: 21.85%;
+  margin: 39px auto 277px;
+}
+.big_title {
+  @include v-center-content;
+  justify-content: center;
+  font: $font_type1;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  letter-spacing: 0px;
+}
+.big_title_layout {
+  position: relative;
+  height: min-content;
+  margin: 8px 37.5px 8px 34.5px;
+}
